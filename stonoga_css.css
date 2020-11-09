@@ -1,0 +1,97 @@
+body
+{
+	margin: 0;
+	background-color: #e9f5f3;
+	color: #000000;
+    font-family: 'Calistoga', cursive;
+    font-size: 28px;
+}
+
+a:link    { color: #0616fd; text-decoration: none; }
+a:visited { color: #0616fd; }
+a:active  { color: #0616fd; }
+a:hover   { color: #fd0606; }
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+h2
+{
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.board
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta_stonoga.png");
+	border: 4px solid #ffffff;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+	transform-style: preserve-3d;
+	
+}
+
+.card:hover
+{
+	border: 4px solid #fd0606;
+	filter: brightness(100%);
+}
+
+.cardA
+{
+	border: 4px solid #fd0606;
+	cursor: default;
+	filter: brightness(100%);
+	transform: rotateY(180deg) scaleX(-1);
+	
+	
+}
+
+.score
+{
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+#footer
+{
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+
+
+
