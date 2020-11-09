@@ -14,6 +14,8 @@ for (i=0; i<12; i++)
 	cards.push(cards1[randomInts[i]]);
 }
 
+//zmiana na potrzebę gita
+
 var c0 = document.getElementById('c'+randomInts[0]);
 var c1 = document.getElementById('c'+randomInts[1]);
 var c2 = document.getElementById('c'+randomInts[2]);
